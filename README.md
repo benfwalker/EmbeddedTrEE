@@ -2,7 +2,7 @@
 
 Two main parts, embedded code and webcode
 
-The embedded code is the python, which sends the acceleration and microhpone data and receives info on whether to turn its led on or off.
+The embedded code is the python, which sends the acceleration and microhpone data and receives info on whether to turn its led on or off. It's run by running the go_setup(), and then the allreadCont() functions.
 
 The webcode receives the data and graphs it, as well as deciding whether the led on the device should be on or off. Currently, it turns it on if there is a period of sustained activity, but obviously this could be extended.
 
